@@ -26,7 +26,7 @@ public class Solution43 {
         wantsCSSFolder = generator.promptForCSSFolder();
 
         // Create base directory
-        String baseDir = generator.createBaseDirTest(siteName);
+        String baseDir = generator.createBaseDir(siteName);
 
         // Generate an index.html that contains the name of the site inside the <title> tag and the author in a <meta> tag
         generator.generateHTML(siteName,siteAuthor);
