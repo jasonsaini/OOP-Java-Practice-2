@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Employee{
+string firstName
+string lastName
+string salary
+Employee(String eFirstName, String eLastName, String eSalary)
+}
+
+@enduml

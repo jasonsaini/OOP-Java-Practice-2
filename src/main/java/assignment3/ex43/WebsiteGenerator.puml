@@ -1,0 +1,15 @@
+@startuml
+class WebsiteGenerator{
+String promptSiteName()
+String promptSiteAuthor()
+boolean promptForJSFolder()
+boolean promptForCSSFolder()
+void createJSFolder()
+void createCSSFolder()
+void generateHTML()
+void createBaseDir()
+
+File HTMLTemplate
+Scanner in
+}
+@enduml

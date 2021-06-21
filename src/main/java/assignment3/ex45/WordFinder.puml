@@ -1,0 +1,9 @@
+@startuml
+class WordFinder
+{
+    File infile
+    String promptOutFileName()
+    String replaceOccurrences(File infile)
+    void createOutputFile(String replaced)
+}
+@enduml

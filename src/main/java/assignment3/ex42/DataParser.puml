@@ -1,0 +1,9 @@
+@startuml
+
+class DataParser
+{
+    Employee parseLineForObject(line)
+    void outputEmployeeInfo(EmployeesList)
+}
+
+@enduml

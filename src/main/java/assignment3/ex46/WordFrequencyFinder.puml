@@ -1,0 +1,10 @@
+@startuml
+class WordFrequencyFinder
+{
+    File infile
+    String[] filetoArray();
+    Map<String,Integer> mapStringFrequencies(String[] words);
+    TreeMap<Integer,String> invertMap();
+    void printWordFrequencies();
+}
+@enduml

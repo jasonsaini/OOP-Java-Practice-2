@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class NameSorter
+{
+    ArrayList<String> namesList;
+    ArrayList<String> sortNamesFromFile(String filename);
+    void writeOutputToFile(String outfileNam);
+
+}
+@enduml

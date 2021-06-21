@@ -1,0 +1,8 @@
+@startuml
+class ProductSearch
+{
+    String promptSearchKey()
+    Product parseJSON(String key)
+}
+
+@enduml

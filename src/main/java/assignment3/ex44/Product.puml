@@ -1,0 +1,9 @@
+@startuml
+class Product
+{
+    String name;
+    double price;
+    int quantity;
+    Product(String pName, double pPrice, int pQuantity);
+}
+@enduml
